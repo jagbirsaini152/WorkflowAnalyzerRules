@@ -1,0 +1,149 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UiPath.Studio.Api.Base</name>
+    </assembly>
+    <members>
+        <member name="P:UiPath.Studio.Api.Controls.Base.ControlDescriptionBase.Tooltip">
+            <summary>
+            [Optional] The tooltip to display for this control
+            </summary>
+        </member>
+        <member name="P:UiPath.Studio.Api.Controls.Base.ControlDescriptionBase.Text">
+            <summary>
+            [Optional] The text to display for this control
+            </summary>
+        </member>
+        <member name="T:UiPath.Studio.Api.Controls.Base.EditorDescriptionBase`1">
+            <summary>
+            A text input control
+            </summary>
+            <typeparam name="T"></typeparam>
+        </member>
+        <member name="P:UiPath.Studio.Api.Controls.Base.EditorDescriptionBase`1.ValueHint">
+            <summary>
+            The value hint if there's no value
+            </summary>
+        </member>
+        <member name="P:UiPath.Studio.Api.Controls.Base.EditorDescriptionBase`1.Validate">
+            <summary>
+            Returns a validation error or an empty string if there's no error.
+            </summary>
+        </member>
+        <member name="T:UiPath.Studio.Api.Controls.Base.InputControlDescriptionBase`1">
+            <summary>
+            Base class for control that allow selecting / editing a value
+            </summary>
+        </member>
+        <member name="P:UiPath.Studio.Api.Controls.Base.InputControlDescriptionBase`1.DefaultValue">
+            <summary>
+            The default value
+            </summary>
+        </member>
+        <member name="P:UiPath.Studio.Api.Controls.Base.InputControlDescriptionBase`1.IsReadOnly">
+            <summary>
+            If set, input is disabled (the control is read-only)
+            </summary>
+        </member>
+        <member name="P:UiPath.Studio.Api.Controls.Base.InputControlDescriptionBase`1.GetDisplayValue">
+            <summary>
+            Get a friendly display value associated with a possible value of <typeparamref name="T"/>
+            </summary>
+            <returns>The formatted text for the given value/&gt;</returns>
+        </member>
+        <member name="T:UiPath.Studio.Api.Controls.Base.ItemsControlDescriptionBase`1">
+            <summary>
+            Base class for item controls (ex: ComboBox)
+            </summary>
+            <typeparam name="T">A type that is supported by <see cref="T:UiPath.Studio.Api.Controls.Base.ControlDescriptionBase"/></typeparam>
+        </member>
+        <member name="P:UiPath.Studio.Api.Controls.Base.ItemsControlDescriptionBase`1.Items">
+            <summary>
+            The possible values
+            </summary>
+        </member>
+        <member name="T:UiPath.Studio.Api.Controls.CheckBoxDescription">
+            <summary>
+            A check box
+            </summary>
+        </member>
+        <member name="T:UiPath.Studio.Api.Controls.ComboBoxDescription">
+            <summary>
+            A select-only combo box
+            </summary>
+        </member>
+        <member name="P:UiPath.Studio.Api.Controls.ComboBoxDescription.AllowMultipleSelection">
+            <summary>
+            If true, each item will have an associated check box
+            </summary>
+        </member>
+        <member name="T:UiPath.Studio.Api.Controls.NumericBoxDescription`1">
+            <summary>
+            A numeric input control
+            </summary>
+            <typeparam name="T">A numeric type (ex: int, double)</typeparam>
+        </member>
+        <member name="P:UiPath.Studio.Api.Controls.NumericBoxDescription`1.MaxValue">
+            <summary>
+            [Optional] The higher bound value
+            </summary>
+        </member>
+        <member name="P:UiPath.Studio.Api.Controls.NumericBoxDescription`1.MinValue">
+            <summary>
+            [Optional] The lower bound value
+            </summary>
+        </member>
+        <member name="P:UiPath.Studio.Api.Controls.NumericBoxDescription`1.StepSize">
+            <summary>
+            [Optional] If set, an up/down control is displayed that increments/decrements using the given value
+            </summary>
+        </member>
+        <member name="T:UiPath.Studio.Api.Controls.RadioButtonGroupDescription">
+            <summary>
+            Radio button group generated from a list of string values
+            </summary>
+            <remarks>Use <see cref="P:UiPath.Studio.Api.Controls.Base.InputControlDescriptionBase`1.GetDisplayValue"/> to provide the localized display value</remarks>
+        </member>
+        <member name="T:UiPath.Studio.Api.Controls.StackPanelDescription">
+            <summary>
+            A list of checkboxes (multiple selection)
+            </summary>
+        </member>
+        <member name="T:UiPath.Studio.Api.Controls.TextBoxDescription">
+            <summary>
+            A text box control
+            </summary>
+        </member>
+        <member name="P:UiPath.Studio.Api.Controls.TextBoxDescription.IsMultiLine">
+            <summary>
+            If true, the text box expands vertically
+            </summary>
+        </member>
+        <member name="T:UiPath.Studio.Api.Controls.ToggleDescription">
+            <summary>
+            A toggle button
+            </summary>
+        </member>
+        <member name="T:UiPath.Studio.Api.Telemetry.ITelemetryService">
+            <summary>
+            Telemetry service
+            </summary>
+        </member>
+        <member name="P:UiPath.Studio.Api.Telemetry.ITelemetryService.IsEnabled">
+            <summary>
+            If this is false, activity packages are legally not allowed to collect telemetry data.
+            </summary>
+        </member>
+        <member name="T:UiPath.Studio.Api.Theme.IThemeService">
+            <summary>
+            The entry point for theme related functionality
+            </summary>
+        </member>
+        <member name="M:UiPath.Studio.Api.Theme.IThemeService.GetThemeType">
+            <summary>
+            An entry from <see cref="T:UiPath.Studio.Api.Theme.ThemeType"/> as int
+            </summary>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

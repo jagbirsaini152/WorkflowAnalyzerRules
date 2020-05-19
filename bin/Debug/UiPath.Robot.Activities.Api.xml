@@ -1,0 +1,98 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UiPath.Robot.Activities.Api</name>
+    </assembly>
+    <members>
+        <member name="T:UiPath.Robot.Activities.Api.ExecutorFeatureKeys">
+            <summary>
+            Supported executor runtime feature keys.
+            </summary>
+        </member>
+        <member name="F:UiPath.Robot.Activities.Api.ExecutorFeatureKeys.Settings">
+            <summary>
+            Executor 19.8
+            </summary>
+        </member>
+        <member name="F:UiPath.Robot.Activities.Api.ExecutorFeatureKeys.AccessProvider">
+            <summary>
+            Executor 19.8
+            </summary>
+        </member>
+        <member name="F:UiPath.Robot.Activities.Api.ExecutorFeatureKeys.RunningJobInformation">
+            <summary>
+            Executor 19.10
+            </summary>
+        </member>
+        <member name="F:UiPath.Robot.Activities.Api.ExecutorFeatureKeys.LogMessage">
+            <summary>
+            Executor 19.10
+            </summary>
+        </member>
+        <member name="T:UiPath.Robot.Activities.Api.IExecutorRuntime">
+            <summary>
+            Services exposed by the Robot Executor for activities.
+            </summary>
+        </member>
+        <member name="P:UiPath.Robot.Activities.Api.IExecutorRuntime.Settings">
+            <summary>
+            See <see cref="T:UiPath.Activities.Api.Base.IActivitiesSettingsReader"/>
+            </summary>
+        </member>
+        <member name="P:UiPath.Robot.Activities.Api.IExecutorRuntime.AccessProvider">
+            <summary>
+            See <see cref="T:UiPath.Activities.Api.Base.IAccessProvider"/>
+            </summary>
+        </member>
+        <member name="P:UiPath.Robot.Activities.Api.IExecutorRuntime.RunningJobInformation">
+            <summary>
+            See <see cref="T:UiPath.Robot.Activities.Api.IRunningJobInformation"/>
+            </summary>
+        </member>
+        <member name="M:UiPath.Robot.Activities.Api.IExecutorRuntime.LogMessage(UiPath.Robot.Activities.Api.LogMessage)">
+            <summary>
+            Log an execution message.
+            </summary>
+        </member>
+        <member name="T:UiPath.Robot.Activities.Api.IRunningJobInformation">
+            <summary>
+            Details about the currently executing job.
+            </summary>
+        </member>
+        <member name="P:UiPath.Robot.Activities.Api.IRunningJobInformation.JobId">
+            <summary>
+            Identifier of the current job.
+            </summary>
+        </member>
+        <member name="P:UiPath.Robot.Activities.Api.IRunningJobInformation.ProcessName">
+            <summary>
+            Name of the currently running process.
+            </summary>
+        </member>
+        <member name="P:UiPath.Robot.Activities.Api.IRunningJobInformation.ProcessVersion">
+            <summary>
+            Version of the currently running process.
+            </summary>
+        </member>
+        <member name="P:UiPath.Robot.Activities.Api.IRunningJobInformation.WorkflowFilePath">
+            <summary>
+            Full path of the currently executing workflow file.
+            </summary>
+        </member>
+        <member name="T:UiPath.Robot.Activities.Api.LogMessage">
+            <summary>
+            Message that can be logged by the executor.
+            </summary>
+        </member>
+        <member name="P:UiPath.Robot.Activities.Api.LogMessage.EventType">
+            <summary>
+            Message verbosity (level).
+            </summary>
+        </member>
+        <member name="P:UiPath.Robot.Activities.Api.LogMessage.Message">
+            <summary>
+            Text of the message.
+            </summary>
+        </member>
+    </members>
+</doc>

@@ -1,0 +1,43 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UiPath.Activities.Api.Base</name>
+    </assembly>
+    <members>
+        <member name="T:UiPath.Activities.Api.Base.IAccessProvider">
+            <summary>
+            This runtime service exposes a method for obtaining OAuth 2.0 access tokens
+            </summary>
+        </member>
+        <member name="M:UiPath.Activities.Api.Base.IAccessProvider.GetResourceUrl(System.String)">
+            <summary>
+            Gets the resource server Url for the specified scope.
+            Only the "Orchestrator" scope is currently supported.
+            </summary>
+        </member>
+        <member name="M:UiPath.Activities.Api.Base.IAccessProvider.GetAccessToken(System.String,System.Boolean)">
+            <summary>
+            Either returns a cached OAuth 2.0 access token for the given <paramref name="scope" />
+            or asks the OAuth 2.0 Authorization Server for one, if such an access token doesn't exist or <paramref name="force" /> is <see langword="true" />,
+            while also caching and return it.
+            </summary>
+            <param name="scope">The OAuth 2.0 scope for which to get an access token</param>
+            <param name="force">Specify <see langword="true" /> to force the generation of a new access token</param>
+            <returns></returns>
+        </member>
+        <member name="T:UiPath.Activities.Api.Base.IActivitiesSettingsReader">
+            <summary>
+            The settings service available at runtime
+            </summary>
+        </member>
+        <member name="M:UiPath.Activities.Api.Base.IActivitiesSettingsReader.TryGetValue``1(System.String,``0@)">
+            <summary>
+            Retrieve the currently stored value for a setting using its key
+            </summary>
+            <typeparam name="T">string, bool, int, double or array of the previous types</typeparam>
+            <param name="key">The unique key of the setting to get the value for</param>
+            <param name="value">[Output] The setting value on success</param>
+            <returns>True if the value exists in the settings storage</returns>
+        </member>
+    </members>
+</doc>

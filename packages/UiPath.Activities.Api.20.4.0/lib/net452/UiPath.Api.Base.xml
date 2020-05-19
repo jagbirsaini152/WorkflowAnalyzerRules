@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>UiPath.Api.Base</name>
+    </assembly>
+    <members>
+        <member name="T:UiPath.Api.Attributes.FeatureRequirementAttribute">
+            <summary>
+            To help the API user see when the type is available (instead of a comment)
+            </summary>
+        </member>
+        <member name="P:UiPath.Api.Attributes.FeatureRequirementAttribute.FeatureKey">
+            <summary>
+            The feature key required by this functionality
+            </summary>
+        </member>
+        <member name="T:UiPath.Api.IHasFeature">
+            <summary>
+            Offer capabilities to query runtime support of a feature.
+            </summary>
+        </member>
+        <member name="M:UiPath.Api.IHasFeature.HasFeature(System.String)">
+            <summary>
+            Returns true if a feature is supported.
+            </summary>
+            <param name="name">The feature key (see FeatureKeys)</param>
+        </member>
+    </members>
+</doc>
