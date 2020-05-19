@@ -12,12 +12,10 @@ namespace WA_UiPath
     {
         public void Initialize(IAnalyzerConfigurationService workflowAnalyzerConfigService)
         {
-            // Naming
-            workflowAnalyzerConfigService.AddRule(LengthRule.Get());
             workflowAnalyzerConfigService.AddRule(ProjectDescriptionMissing.Get());
-            //workflowAnalyzerConfigService.AddRule(VariableNameDuplicationRule.Get());
-            //workflowAnalyzerConfigService.AddRule(ArgumentNamingRule.Get());
-            //workflowAnalyzerConfigService.AddRule(VariableLengthRule.Get());
+            workflowAnalyzerConfigService.AddRule(REFrameworkUsageRule.Get()); ;
+            workflowAnalyzerConfigService.AddRule(AtleastOneLogMessageRule.Get());
+
         }
     }
 }

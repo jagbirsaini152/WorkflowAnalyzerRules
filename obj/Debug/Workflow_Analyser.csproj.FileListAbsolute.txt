@@ -1,12 +1,6 @@
 C:\Jagbir S\UiPath Projects\UiPath Hackathon\WorkflowAnalyzerRules\obj\Debug\Workflow_Analyser.csproj.CoreCompileInputs.cache
 C:\Jagbir S\UiPath Projects\UiPath Hackathon\WorkflowAnalyzerRules\bin\Debug\Workflow_Analyser.dll
 C:\Jagbir S\UiPath Projects\UiPath Hackathon\WorkflowAnalyzerRules\bin\Debug\Workflow_Analyser.pdb
-C:\Jagbir S\UiPath Projects\UiPath Hackathon\WorkflowAnalyzerRules\bin\Debug\Newtonsoft.Json.dll
-C:\Jagbir S\UiPath Projects\UiPath Hackathon\WorkflowAnalyzerRules\bin\Debug\UiPath.Activities.Api.Base.dll
-C:\Jagbir S\UiPath Projects\UiPath Hackathon\WorkflowAnalyzerRules\bin\Debug\UiPath.Api.Base.dll
-C:\Jagbir S\UiPath Projects\UiPath Hackathon\WorkflowAnalyzerRules\bin\Debug\UiPath.Robot.Activities.Api.dll
-C:\Jagbir S\UiPath Projects\UiPath Hackathon\WorkflowAnalyzerRules\bin\Debug\UiPath.Studio.Activities.Api.dll
-C:\Jagbir S\UiPath Projects\UiPath Hackathon\WorkflowAnalyzerRules\bin\Debug\UiPath.Studio.Api.Base.dll
 C:\Jagbir S\UiPath Projects\UiPath Hackathon\WorkflowAnalyzerRules\bin\Debug\UiPath.Activities.Api.Base.pdb
 C:\Jagbir S\UiPath Projects\UiPath Hackathon\WorkflowAnalyzerRules\bin\Debug\UiPath.Activities.Api.Base.xml
 C:\Jagbir S\UiPath Projects\UiPath Hackathon\WorkflowAnalyzerRules\bin\Debug\UiPath.Api.Base.pdb
@@ -20,3 +14,4 @@ C:\Jagbir S\UiPath Projects\UiPath Hackathon\WorkflowAnalyzerRules\bin\Debug\UiP
 C:\Jagbir S\UiPath Projects\UiPath Hackathon\WorkflowAnalyzerRules\obj\Debug\Workflow_Analyser.csproj.CopyComplete
 C:\Jagbir S\UiPath Projects\UiPath Hackathon\WorkflowAnalyzerRules\obj\Debug\Workflow_Analyser.dll
 C:\Jagbir S\UiPath Projects\UiPath Hackathon\WorkflowAnalyzerRules\obj\Debug\Workflow_Analyser.pdb
+C:\Jagbir S\UiPath Projects\UiPath Hackathon\WorkflowAnalyzerRules\obj\Debug\Workflow_Analyser.csprojAssemblyReference.cache

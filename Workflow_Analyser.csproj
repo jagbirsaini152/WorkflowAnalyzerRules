@@ -57,18 +57,66 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="AtleastOneLogMessageRule.cs" />
-    <Compile Include="ProjectDescriptionMissing.cs" />
+    <Compile Include="Rules\AtleastOneLogMessageRule.cs" />
+    <Compile Include="Rules\ProjectDescriptionMissing.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="REFrameworkUsageRule.cs" />
+    <Compile Include="Rules\REFrameworkUsageRule.cs" />
     <Compile Include="RegisterAnalyzerConfigurations.cs" />
-    <Compile Include="LengthRule.cs" />
   </ItemGroup>
   <ItemGroup>
     <WCFMetadata Include="Connected Services\" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="obj\Debug\DesignTimeResolveAssemblyReferencesInput.cache" />
+    <None Include="obj\Debug\Workflow_Analyser.csproj.CopyComplete" />
+    <None Include="obj\Debug\Workflow_Analyser.csproj.CoreCompileInputs.cache" />
     <None Include="packages.config" />
+    <None Include="packages\UiPath.Activities.Api.20.4.0\.signature.p7s" />
+    <None Include="packages\UiPath.Activities.Api.20.4.0\UiPath.Activities.Api.20.4.0.nupkg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\Newtonsoft.Json.dll" />
+    <Content Include="bin\Debug\UiPath.Activities.Api.Base.dll" />
+    <Content Include="bin\Debug\UiPath.Activities.Api.Base.pdb" />
+    <Content Include="bin\Debug\UiPath.Activities.Api.Base.xml" />
+    <Content Include="bin\Debug\UiPath.Api.Base.dll" />
+    <Content Include="bin\Debug\UiPath.Api.Base.pdb" />
+    <Content Include="bin\Debug\UiPath.Api.Base.xml" />
+    <Content Include="bin\Debug\UiPath.Robot.Activities.Api.dll" />
+    <Content Include="bin\Debug\UiPath.Robot.Activities.Api.pdb" />
+    <Content Include="bin\Debug\UiPath.Robot.Activities.Api.xml" />
+    <Content Include="bin\Debug\UiPath.Studio.Activities.Api.dll" />
+    <Content Include="bin\Debug\UiPath.Studio.Activities.Api.pdb" />
+    <Content Include="bin\Debug\UiPath.Studio.Activities.Api.xml" />
+    <Content Include="bin\Debug\UiPath.Studio.Api.Base.dll" />
+    <Content Include="bin\Debug\UiPath.Studio.Api.Base.pdb" />
+    <Content Include="bin\Debug\UiPath.Studio.Api.Base.xml" />
+    <Content Include="bin\Debug\Workflow_Analyser.dll" />
+    <Content Include="bin\Debug\Workflow_Analyser.pdb" />
+    <Content Include="obj\Debug\Workflow_Analyser.csproj.FileListAbsolute.txt" />
+    <Content Include="obj\Debug\Workflow_Analyser.dll" />
+    <Content Include="obj\Debug\Workflow_Analyser.pdb" />
+    <Content Include="packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Activities.Api.Base.dll" />
+    <Content Include="packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Activities.Api.Base.pdb" />
+    <Content Include="packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Activities.Api.Base.xml" />
+    <Content Include="packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Api.Base.dll" />
+    <Content Include="packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Api.Base.pdb" />
+    <Content Include="packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Api.Base.xml" />
+    <Content Include="packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Api.Package.pdb" />
+    <Content Include="packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Api.Package.xml" />
+    <Content Include="packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Robot.Activities.Api.dll" />
+    <Content Include="packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Robot.Activities.Api.pdb" />
+    <Content Include="packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Robot.Activities.Api.xml" />
+    <Content Include="packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Studio.Activities.Api.dll" />
+    <Content Include="packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Studio.Activities.Api.pdb" />
+    <Content Include="packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Studio.Activities.Api.xml" />
+    <Content Include="packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Studio.Api.Base.dll" />
+    <Content Include="packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Studio.Api.Base.pdb" />
+    <Content Include="packages\UiPath.Activities.Api.20.4.0\lib\net452\UiPath.Studio.Api.Base.xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="bin\Release\" />
+    <Folder Include="obj\Debug\TempPE\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
