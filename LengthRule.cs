@@ -12,7 +12,7 @@ namespace WA_UiPath
      static class LengthRule
     {
         // This should be as unique as possible, and should follow the naming convention.
-        private const string RuleId = "AT-NMG-001";
+        private const string RuleId = " AT-NMG-001";
 
         internal static Rule<IActivityModel> Get()
         {
